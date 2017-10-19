@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Quicksand" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="jquery.pin.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.parallax').parallax();
+    });
+    $(window).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+
+        $('.banner').css({
+            "background-color": function() {
+                var elementHeight = $(".parallax-container").height();
+                if (((elementHeight - scrollTop) / scrollTop) < 2.5)
+                    return "#B3D4F3";
+                else
+                    return "transparent";
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        $('.scrollspy').scrollSpy();
+    });
+
+    $(".pinned").pin({
+        containerSelector: ".container"
+    });
+</script>
+
+<head>
+    <title>Noah Yoshida</title>
+</head>
+
+<body>
+    <nav class="banner">
+        <a href="#top" class="brand-logo center">
+            <div class="title" id="top"><span class="grey-text text-darken-3">Noah Yoshida</span>
+            </div>
+        </a>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img class="bg" src="resources/pixel.gif">
+        </div>
+    </div>
+    <div class="row">
+    <div class="col s1 push-s12 hide-on-small-only m3 l2">
+        <ul class="pinned section table-of-contents">
+            <li><a href="#introduction">Introduction</a>
+            </li>
+            <li><a href="#structure">Structure</a>
+            </li>
+            <li><a href="#initialization">Intialization</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="introduction" class="section scrollspy">
+                    <div class="row containter">
+                        <h1>Welcome</h1>
+                    </div>
+                </div>
+
+                <div id="structure" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+
+                <div id="initialization" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="introduction" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+
+                <div id="structure" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+
+                <div id="initialization" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+            </div>
+            <div class="toc-wrapper pin-top" style="top: 0px;">
+
+            </div>
+            <ul class="section table-of-contents">
+                <li><a href="#introduction" class="active">Introduction</a>
+                </li>
+                <li><a href="#structure" class="">Structure</a>
+                </li>
+                <li><a href="#initialization" class="">Intialization</a>
+                </li>
+                <li><a href="#options">Options</a>
+                </li>
+            </ul>
+        </div>  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+</body>
+
+
+<script src="scripts.js"></script>
+
+</html

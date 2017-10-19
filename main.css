@@ -1,0 +1,29 @@
+.title{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 4rem;
+	padding-top: 0.75rem;
+}
+
+.banner{
+	height: 6rem;
+	position: fixed;
+	background-color: transparent;
+	z-index: 10;
+	box-shadow: none;
+}
+
+.parallax-container{
+	height: 875px;
+}
+body{
+	background-color: "#fffee5";
+}
+h1{
+	color: "#256B8B";
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 4rem;
+}
+
+.menu{
+	position: fixed;
+}
