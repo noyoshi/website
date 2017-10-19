@@ -1,3 +1,8 @@
+/*color palette: 
+pink: #F7CED9
+l blue: #B3D4F3
+green: #D4E5CA
+*/
 .title{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 4rem;
@@ -15,15 +20,39 @@
 .parallax-container{
 	height: 875px;
 }
-body{
-	background-color: "#fffee5";
+body {
+	background-color:#1C1C1C;
 }
+
+
 h1{
-	color: "#256B8B";
+	color: #D4E5CA;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 4rem;
 }
 
 .menu{
 	position: fixed;
+}
+
+
+.topIcon{
+	padding-top: 0;
+	padding-bottom: 0;
+	max-width: 40px;
+	max-height: 40px;
+
+}
+
+.topList{
+	padding-bottom: 0;
+	margin-top: 1.5rem;
+	height:0px;
+}
+.list{
+	opacity: 0;
+}
+
+.explore{
+	cursor: pointer;
 }
